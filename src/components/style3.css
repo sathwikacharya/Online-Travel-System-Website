@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Navigation Bar*/
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand img {
+  height: 80px;
+  padding-left: 30px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+
+#nav-barul li a: hover {
+  color: #007bff !important;
+}
+
+.navbar {
+  background: #fff;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-link {
+  color: #555 !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.PictureSlider {
+  height: 80px;
+  padding-left: 30px;
+}
+
+.carousel-item active img {
+  height: 80px;
+}
+
+/* Details-1 */
+#details-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0.8)),
+    url(./images/trekkingbg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#details-1 h1 {
+  text-align: center;
+}
+
+.details-1 {
+  margin-top: 40px;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 105px;
+  width: 105px;
+  border: 0.5px solid #fff;
+  border-radius: 50%;
+}
+
+#details-1 p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.details-1 .col-md-3:hover {
+  background: #555;
+  cursor: pointer;
+  transition: 0.7 sec;
+}
+
+#details-1 h1::after {
+  content: "";
+  text-align: center;
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+/* Details-2 */
+
+#details {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#details .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.details-content {
+  padding-top: 5px;
+  padding-bottom: 20 px;
+}
+
+/* Details-3 */
+
+hr.new1 {
+  border-top: 1px solid;
+  width: 100%;
+}
+
+.details-3-content {
+  text-align: right;
+  padding-right: 70px;
+}
+
+#details-3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+/* Itinerary */
+#itinerary h1 {
+  text-align: center;
+}
+
+#itinerary {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0.8)),
+    url(./images/trekkingbg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Pricing */
+#price h1 {
+  text-align: center;
+}
+
+#price {
+  padding: 40px 0;
+  background: #efefef;
+}
+
+.single-price {
+  margin: 10px auto;
+  display: inline;
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.single-price :hover {
+  box-decoration-break: clone;
+  text-shadow: 0 2px 20px #333;
+}
+
+.price-head {
+  background-color: #2196f3;
+  display: inline;
+  float: left;
+  padding: 10px 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.price-head h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.price-head p {
+  font-size: 25px;
+  color: #ccc;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+#price span {
+  font-size: 15px;
+}
+
+.price-content {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.price-content ul li {
+  border-bottom: 1px solid #efefef;
+  padding: 15px 10px;
+  list-style: none;
+}
+
+ul li :last-child {
+  border: none;
+}
+
+.fa-check-circle {
+  color: green;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.fa-times-circle {
+  color: red;
+  margin-right: 10px;
+  font-size: 20px;
+}
